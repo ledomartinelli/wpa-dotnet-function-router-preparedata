@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDP.WPA.Functions.RouterProcessData.Console", "EDP.WPA.Functions.RouterProcessData\EDP.WPA.Functions.RouterProcessData.Console.csproj", "{23E5593A-7C83-4C3D-96C9-830CE02E02A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDP.WPA.Functions.RouterProcessData.Core", "EDP.WPA.Functions.RouterProcessData.Core\EDP.WPA.Functions.RouterProcessData.Core.csproj", "{B7DD7A8E-352C-4326-8C88-0F00D13BC081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDP.WPA.Functions.RouterProcessData.Infra", "EDP.WPA.Functions.RouterProcessData.Infra\EDP.WPA.Functions.RouterProcessData.Infra.csproj", "{4FD5EA91-155D-4AA6-9033-8A27C03B3C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDP.WPA.Functions.RouterProcessData.Test", "EDP.WPA.Functions.RouterProcessData.Test\EDP.WPA.Functions.RouterProcessData.Test.csproj", "{7BB6F568-3C5D-4745-B611-D8D0D7A3CB47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E5593A-7C83-4C3D-96C9-830CE02E02A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E5593A-7C83-4C3D-96C9-830CE02E02A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E5593A-7C83-4C3D-96C9-830CE02E02A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E5593A-7C83-4C3D-96C9-830CE02E02A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DD7A8E-352C-4326-8C88-0F00D13BC081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DD7A8E-352C-4326-8C88-0F00D13BC081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DD7A8E-352C-4326-8C88-0F00D13BC081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DD7A8E-352C-4326-8C88-0F00D13BC081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD5EA91-155D-4AA6-9033-8A27C03B3C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD5EA91-155D-4AA6-9033-8A27C03B3C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD5EA91-155D-4AA6-9033-8A27C03B3C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD5EA91-155D-4AA6-9033-8A27C03B3C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB6F568-3C5D-4745-B611-D8D0D7A3CB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB6F568-3C5D-4745-B611-D8D0D7A3CB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB6F568-3C5D-4745-B611-D8D0D7A3CB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB6F568-3C5D-4745-B611-D8D0D7A3CB47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C0E87E7-EA8B-4750-97F8-96A9834975EC}
+	EndGlobalSection
+EndGlobal

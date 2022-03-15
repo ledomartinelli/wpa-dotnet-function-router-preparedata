@@ -4,11 +4,9 @@
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="4.0.5" />
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EDP.WPA.Functions.RouterProcessData.Infra\EDP.WPA.Functions.RouterProcessData.Infra.csproj" />
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.0.0" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.0" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">

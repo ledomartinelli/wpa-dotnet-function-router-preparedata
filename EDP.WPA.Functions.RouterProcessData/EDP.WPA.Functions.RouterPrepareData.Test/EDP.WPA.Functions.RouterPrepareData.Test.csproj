@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -17,11 +18,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\EDP.WPA.Functions.RouterProcessData.Core\EDP.WPA.Functions.RouterProcessData.Core.csproj" />
-    <ProjectReference Include="..\EDP.WPA.Functions.RouterProcessData.Infra\EDP.WPA.Functions.RouterProcessData.Infra.csproj" />
   </ItemGroup>
 
 </Project>

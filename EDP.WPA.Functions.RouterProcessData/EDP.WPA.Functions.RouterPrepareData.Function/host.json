@@ -1,11 +1,16 @@
 {
-    "version": "2.0",
+  "version": "2.0",
+  "extensions": {
+    "queues": {
+      "maxDequeueCount": 5
+    },
     "logging": {
-        "applicationInsights": {
-            "samplingSettings": {
-                "isEnabled": true,
-                "excludedTypes": "Request"
-            }
+      "applicationInsights": {
+        "samplingSettings": {
+          "isEnabled": true,
+          "excludedTypes": "Request"
         }
+      }
     }
+  }
 }

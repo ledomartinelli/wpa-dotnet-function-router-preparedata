@@ -5,12 +5,20 @@ using Microsoft.Extensions.Logging;
 
 namespace EDP.WPA.Functions.RouterPrepareData.Function
 {
+
     public class RouterPrepareData
     {
-        [FunctionName("RouterPrepareData")]
-        public void Run([QueueTrigger("myqueue-items", Connection = "Connection")]string myQueueItem, ILogger log)
+        private readonly ILogger _logger;
+        
+        public RouterPrepareData(ILogger logger)
         {
-            log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
+            _logger = logger;
+        }
+
+        [FunctionName("RouterPrepareData")]
+        public void Run([QueueTrigger("%QueueName%", Connection = "Connection")]string myQueueItem, ILogger log)
+        {
+            _logger.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
         }
     }
 }
